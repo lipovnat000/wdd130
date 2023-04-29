@@ -1,0 +1,40 @@
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    color: brown;
+    padding: 10px 20px;
+    margin-left: 2in;
+    margin-top: 1in;
+    border: 5px solid goldenrod;
+    text-align: left;
+    border-radius: 10px;
+}
+#thor {
+    font-size: 1.5em;
+    background-color: aliceblue;
+}
+.highlight {
+    background-color: brown;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#1d616d;
+    color: rgb(245, 245, 245);
+    padding: 10px 20px;
+    margin-left: 2in;
+    margin-top: 1in;
+    border: 5px solid goldenrod;
+    text-align: left;
+    border-radius: 10px;
+}
+.orange {
+    background-color: coral;
+    color:whitesmoke
+}
