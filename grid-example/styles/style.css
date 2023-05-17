@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+.sec1 {
+    background-color: darkslategrey;
+    color: white;
+    grid-column: 2/5;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* fractional remaining */
+    gap: 2em;
+}
+header {
+    grid-column: 2/-1;
+    background-color: aqua;
+}
+footer {
+    grid-column: 1/-1;
+    background-color: bisque;
+}
