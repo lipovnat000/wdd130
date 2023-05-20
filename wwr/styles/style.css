@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Righteous&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-decoration: none;
     color: #55251D;
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +23,10 @@ main section {
 }
 body {
     background-color: lightblue;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: tan;
@@ -33,6 +39,10 @@ nav a:hover{
     text-decoration: none;
     color: whitesmoke;
     background-color: #115a077e;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: lightgrey;
@@ -43,15 +53,20 @@ nav a:hover{
 .msg{
     color:rgb(226, 241, 255);
     background-color: rgba(109, 52, 5, 0.623);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: tan;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -62,4 +77,34 @@ footer a{
 }
 footer p a:hover {
     text-decoration: underline;
-}  
+} 
+.home-title {
+    font-family: Righteous;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2{
+    font-family: Righteous;
+}
+.msg p{
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
+}
