@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+    width: 1970px;
+    height: 906px;
+}
+.cherries{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 200pt;
+    z-index: 1;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin: auto;
+    margin-bottom: 0;
+    letter-spacing: 10pt;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+    text-align: center;
+    padding-top: 75px;
+    font-size:100pt;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: rgb(163, 0, 0);
+    letter-spacing: 12pt;
+}
+.cherry_image{
+    grid-column:1/2;
+    grid-row: 1/-1;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.right_half{
+    grid-column:2/3;
+    background-color:grey;
+    grid-row: 1/-1;
+}
+img{
+    width: 100%;
+}
