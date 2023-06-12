@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body{
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+h1 {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: 'Open Sans';
+    font-weight: 9500;
+    font-size: 40pt;
+}
+h2{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+form {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+img {
+    grid-row: 1/4;
+    margin-top: -100;
+    margin-left: -300;
+}
