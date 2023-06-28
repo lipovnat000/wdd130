@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    display: grid;
+    grid-template-columns: 1fr 400px 540px 1fr;
+}
+img {
+    grid-column: 2/3;
+}
+.text {
+    display: grid;
+    grid-column: 3/4;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 70px;
+    padding-bottom: 46px;
+    grid-row: 1/-1;
+}
+.name {
+    border-bottom: 5px solid black;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 24pt;
+}
+.job {
+    margin-top: 0;
+    font-size: 14pt;
+    margin: 0;
+    padding-top: 10px;
+}
+.paragraph {
+    font-size: 12pt;
+    padding-top: 24px;
+}
