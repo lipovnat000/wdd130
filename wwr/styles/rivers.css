@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Righteous&display=swap');
+header{
+    background-color: tan;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+body {
+    background-color: lightblue;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+#pictures{
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 50px 1fr 1fr 1fr 50px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-decoration: none;
+    color: #55251D;
+    text-align: center;
+    padding: 35px;
+    font-weight: 700;
+}
+nav a:hover{
+    color: whitesmoke;
+    background-color: darkcyan;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: tan;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img {
+    padding-top: 15px;
+}
+.logo {
+    width: 80px;
+}
+#salmon_river{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+#salmon_river_p{
+    grid-column: 2;
+    grid-row: 2;
+}
+#salmon_river_title{
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+}
+#salmon_river_img{
+    display: block;
+    grid-column: 1;
+    grid-row: 1/-1;
+    margin: auto;
+    max-width: 600px;
+}
+#utah{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+#utah_p{
+    grid-column: 1;
+    grid-row: 2;
+}
+#utah_title{
+    grid-column: 1;
+    grid-row: 1;
+    font-weight: bold;
+}
+#utah_img{
+    display: block;
+    grid-column: 2;
+    grid-row: 1/-1;
+    margin: auto;
+    max-width: 600px;
+}
+#arizona{
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px
+}
+#arizona_p{
+    grid-column: 2;
+    grid-row: 2;
+}
+#arizona_title{
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+}
+#arizona_img{
+    display: block;
+    grid-column: 1;
+    grid-row: 1/-1;
+    margin: auto;
+    max-width: 600px;
+}
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
