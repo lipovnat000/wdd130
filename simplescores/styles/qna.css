@@ -122,3 +122,22 @@ footer .social img {
     margin-top: 25px;
   }
 }
+
+@media screen and (max-width: 975px) {
+  .text-box {
+    height: 1600px;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .text-box {
+    height: 2500px;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .text-box {
+    height: 4000px;
+  }
+}
+

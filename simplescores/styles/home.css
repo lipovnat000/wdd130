@@ -6,7 +6,6 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: screen;
   margin: auto;
   padding-right: 25px;
   padding-left: 25px;
@@ -173,5 +172,23 @@ footer p a:hover {
   }
   footer {
     margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .text-box {
+    height: 1600px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .text-box {
+    height: 2000px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .text-box {
+    height: 5000px;
   }
 }
