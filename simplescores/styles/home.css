@@ -73,7 +73,7 @@ header{
   grid-template-columns: 150px auto;
 }
 
-nav a {
+nav a, footer a {
   text-decoration: none;
   color: #55251D;
   text-align: center;
@@ -129,11 +129,12 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  color: #f2f2f2;
+  color: #fffaff;
   font-size: 24px;
   padding: 8px 12px;
   bottom: 8px;
   width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{

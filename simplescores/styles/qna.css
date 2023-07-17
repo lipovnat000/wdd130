@@ -10,7 +10,7 @@ header{
   grid-template-columns: 150px auto;
 }
 
-nav a {
+nav a, footer a {
   text-decoration: none;
   color: #55251D;
   text-align: center;
@@ -71,6 +71,11 @@ nav {
   padding: 8px 12px;
   bottom: 8px;
   width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer{
